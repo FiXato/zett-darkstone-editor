@@ -16,6 +16,7 @@ An isometric tile selection and placement editor by [Zett Darkstone](https://dar
 * Show a preview of the current tile on its current location (though that might be tricky considering layering...)
 * Add a menu to select a tile-set.
 * Export options?
+* See if I can get NYYRIKKI's file menu selector to work on turbo R?
 
 ## Try online
 Want to give it a try, but don't have an emulator installed?
