@@ -1,8 +1,5 @@
 # zett-darkstone-editor
-An isometric tile selection and placement editor by [Zett Darkstone](https://darkstone.nl) written in MSX BASIC.
-
-## New features I've added myself since version 19:
-* An `AUTOEXEC.BAS` which has a simple menu by NYYRIKKI for selecting your desired editor version
+An isometric tile selection and placement editor by [Zett Darkstone](https://darkstone.nl) written in MSX BASIC, with modifications by [Filip H.F. "FiXato" Slagter](https://contact.fixato.org).
 
 ### E20.bas
 * Use `q w e r t y u i` to place corresponding tiles from the first row directly from the placement editor
@@ -11,13 +8,17 @@ An isometric tile selection and placement editor by [Zett Darkstone](https://dar
 * Press `h` to hide the placement cursor sprite; press `H` to make it visible again
 * Refactoring
 
+### E21.bas
+* Tile-set selector
+* Fixed y-position for hiding tile selector sprite
+* Ugly proof-of-concept tile-set for composing faces for avatars.
+* Replaced `autoexec.bas` with just a simple `RUN` of the `editor.asc` file which should be the most recent version anyway. Old menu is now at `selEdit.bas`
+
 ## TODO:
-* Update `AUTOEXEC.BAS` with the latest usage instructions
+* Add a help menu with usage instructions (and perhaps display them on the tile-set selector at the start)
 * Show a preview of the current tile on its current location (though that might be tricky considering layering...)
-* Add a menu to select a tile-set.
 * Export options?
-* See if I can get NYYRIKKI's file menu selector to work on turbo R?
 
 ## Try online
 Want to give it a try, but don't have an emulator installed?
-Load the [Editor via WebMSX](https://webmsx.org/?disk=http://code.fixato.org/MSX/zett-darkstone-editor/z3d-20-fixato.dsk) and press down till you get to `E20.bas`, and hit Enter.
+Load the [Editor via WebMSX](https://webmsx.org/?disk=https://github.com/FiXato/zett-darkstone-editor/releases/download/21/z3d-21-fixato.dsk).
