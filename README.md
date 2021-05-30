@@ -16,3 +16,7 @@ An isometric tile selection and placement editor by [Zett Darkstone](https://dar
 * Show a preview of the current tile on its current location (though that might be tricky considering layering...)
 * Add a menu to select a tile-set.
 * Export options?
+
+## Try online
+Want to give it a try, but don't have an emulator installed?
+Load the [Editor via WebMSX](https://webmsx.org/?disk=http://code.fixato.org/MSX/zett-darkstone-editor/z3d-20-fixato.dsk) and press down till you get to `E20.bas`, and hit Enter.
