@@ -17,10 +17,11 @@ An isometric tile selection and placement editor by [Zett Darkstone](https://dar
 ## Releases
 Each significant feature gets its own release as a separate `.BAS` file (and ideally also a `.DSK` file released through GitHub releases)
 
-### E23.bas
+### E23.bas & E23b.bas
 * Fixed issue with filename of stored image and date formats other than Y/M/D.
 * Clearing screen at start of programme.
 * Added explicit END before the subroutines
+* E23b.bas is a bugfix release; if the date was before a certain date, it would result in a filename string that had leading spaces, which caused issues.
 
 ### E22.bas
 * Save current drawing to .SC5 file with `S` (mind the capital!)
