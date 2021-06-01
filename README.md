@@ -44,6 +44,7 @@ Each significant feature gets its own release as a separate `.BAS` file (and ide
 * Show a preview of the current tile on its current location; though that might be tricky considering layering...
 * Also properly store the palette.
 * More Export options?
+* Import option?
 
 ## Try online
 Want to give it a try, but don't have an emulator installed?
