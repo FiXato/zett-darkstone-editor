@@ -47,4 +47,4 @@ Each significant feature gets its own release as a separate `.BAS` file (and ide
 
 ## Try online
 Want to give it a try, but don't have an emulator installed?
-Load the [Editor via WebMSX](https://webmsx.org/?disk=https://github.com/FiXato/zett-darkstone-editor/releases/latest/download/z3d-fixato.dsk).
+Load the [Editor via WebMSX](https://webmsx.org/?disk=https://github.com/FiXato/zett-darkstone-editor/releases/latest/download/z3d-fixato.dsk) or [Editor via WebMSX running as a turbo-R](https://webmsx.org/?MACHINE=MSXTR&disk=https://github.com/FiXato/zett-darkstone-editor/releases/latest/download/z3d-fixato.dsk).
