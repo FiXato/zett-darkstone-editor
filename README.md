@@ -13,6 +13,8 @@ An isometric tile selection and placement editor by [Zett Darkstone](https://dar
 * Press `c` to open the tile selector.
 * Use cursor keys to move the selection cursor around in the tile selector.
 * Use space bar to confirm your choice in the tile selector and return to the placement editor. (Top-left item is an empty block to erase tiles.)
+* Pressing 'c' in the opening tile file selection menu will now allow you to specify the filename of any *.SC5 file on the disk.
+* If a *.CO5 file is present with the same name as the selected .SC5 file, it will automatically be BLOAD'ed as well for its palette colour data.
 
 ## Releases
 Each significant feature gets its own release as a separate `.BAS` file (and ideally also a `.DSK` file released through GitHub releases)
@@ -53,9 +55,10 @@ Each significant feature gets its own release as a separate `.BAS` file (and ide
 ## TODO:
 * Add a help menu with usage instructions (and perhaps display them on the tile-set selector at the start).
 * Show a preview of the current tile on its current location; though that might be tricky considering layering...
-* Also properly store the palette.
 * More Export options?
 * Import option?
+* Key to make tile you are currently hovering on the active tile
+* Key to toggle between current and last-used tile (Enter?)
 
 ## Try online
 Want to give it a try, but don't have an emulator installed?
