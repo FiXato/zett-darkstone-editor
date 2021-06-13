@@ -6,7 +6,7 @@ An isometric tile selection and placement editor by [Zett Darkstone](https://dar
 * Use `Q W E R T Y U I` to place corresponding tiles from the second row directly from the placement editor.
 * Use space bar in the placement editor to place the currently active tile.
 * Cursor keys move the placement cursor along the x- and y-axes.
-* `z` and `x` move the placement cursor up and down along the z-axis.
+* `z` and `x` (or `Z`) move the placement cursor up and down along the z-axis.
 * While in the placement editor press `+` to increase or `-` to reduce the cursor sensitivity.
 * Press `h` to hide the placement cursor sprite; press `H` to make it visible again.
 * Press `S` (shift+s) in the placement editor to store the current screen to disk as an `.SC5` file.
