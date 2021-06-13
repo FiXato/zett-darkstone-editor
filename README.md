@@ -19,6 +19,13 @@ An isometric tile selection and placement editor by [Zett Darkstone](https://dar
 ## Releases
 Each significant feature gets its own release as a separate `.BAS` file (and ideally also a `.DSK` file released through GitHub releases)
 
+### 25.bas
+* More refactoring which hopefully lead to minor speed improvements
+* Added two more tilesets by Zett Darkstone
+* Added 'Z' as alternative to 'x' to go down a step on the z-axis
+* Added 'ESC' as key to exit the application.
+* Moved non-essential files out of new the dir-as-dsk folder, making it easier to mount the entire directory as a DSK image in openMSX.
+
 ### 24.bas
 * Big refactor and properly store palette info
 * Converted tilesets to include their palettes into the SC5 images
