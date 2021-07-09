@@ -1,5 +1,7 @@
 # zett-darkstone-editor
 An isometric tile selection and placement editor by [Zett Darkstone](https://darkstone.nl) written in MSX BASIC, with modifications by [Filip H.F. "FiXato" Slagter](https://contact.fixato.org).
+You can find the latest release as `.DSK` image at: https://github.com/FiXato/zett-darkstone-editor/releases/latest/download/z3d-fixato.dsk
+An archive of the source code of the current development version can be found at: https://github.com/FiXato/zett-darkstone-editor/archive/refs/heads/main.zip
 
 ## Controls
 * Use `q w e r t y u i` to place corresponding tiles from the first row directly from the placement editor. `q` is actually an empty block you can use to undo a tile.
